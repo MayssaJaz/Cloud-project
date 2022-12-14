@@ -1,0 +1,29 @@
+<div class="jumbotron wrapper">
+    <h1>View Books</h1>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col" id="book-col">Book</th>
+                <th scope="col" id="posted-col">Posted at</th>
+                <th scope="col" id="author-col">Author</th>
+                <th scope="col" id="pages-col">N° Pages</th>
+                <th scope="col" id="genre-col">Genre</th>
+                <th scope="col" id="action-col">Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let book of books;let index = index;">
+                <th scope="row">{{book.name}}</th>
+                <td>{{book.createdAt}}</td>
+                <td>{{book.author}}</td>
+                <td>{{book.pages}}</td>
+                <td>{{book.genre}}</td>
+                <td>
+                    <a (click)="deleteBook(book.id)">
+                        <fa-icon [icon]="trash"></fa-icon>
+                    </a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

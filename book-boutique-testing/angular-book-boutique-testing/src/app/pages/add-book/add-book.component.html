@@ -1,0 +1,24 @@
+<form class="wrapper jumbotron" [formGroup]="bookForm">
+    <div class="form-group">
+        <label for="book" id="book-label">Book's name:</label>
+        <input ngModel type="text" formControlName='name' class="form-control" id="book" placeholder="Book's name...">
+    </div>
+    <div class="form-group">
+        <label for="author" id="author-label">Author:</label>
+        <input ngModel type="text " formControlName='author' class="form-control" id="author" placeholder="Author...">
+    </div>
+    <div class="form-group">
+        <label for="genre" id="genre-label">Genre:</label>
+        <select ngModel class="form-control" formControlName='genre' id="genre">
+        <option *ngFor="let book of genres;let index = index;" [value]="book">{{book}}</option>
+      </select>
+    </div>
+    <div class="form-group">
+        <label for="pages" id="pages-label">Book's number of pages:</label>
+        <input ngModel type="number" class="form-control" formControlName='pages' id="pages" placeholder="number of pages...">
+    </div>
+    <div class="buttons">
+        <button type="submit" id="submit-button" class="btn btn-primary" [disabled]="this.bookForm.invalid" (click)="addBook()">Submit</button>
+        <button type="reset" class="btn btn-dark">Reset</button>
+    </div>
+</form>

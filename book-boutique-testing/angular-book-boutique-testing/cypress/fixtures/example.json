@@ -1,0 +1,19 @@
+[{
+        "name": "Harvest Home",
+        "author": "Thomas Tryon",
+        "pages": 500,
+        "genre": "Horror"
+    },
+    {
+        "name": "The Three Musketeers",
+        "author": "Alexandre Dumas",
+        "pages": 240,
+        "genre": "Adventure"
+    },
+    {
+        "name": "The Arabian Nights",
+        "author": "Middle Eastern folk tales",
+        "pages": 405,
+        "genre": "Fantasy"
+    }
+]

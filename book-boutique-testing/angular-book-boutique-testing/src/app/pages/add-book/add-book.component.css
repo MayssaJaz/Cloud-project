@@ -1,0 +1,13 @@
+.wrapper {
+    padding-top: 4%;
+    width: 90%;
+    margin: auto;
+}
+
+.buttons {
+    padding-top: 5%;
+    gap: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
