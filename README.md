@@ -11,7 +11,10 @@ The services we used are:
 <img src="https://github.com/MayssaJaz/Cloud-project/blob/main/book-boutique-testing/photos/architecture.png" />
 
 ## Our App : 
+### The home page displaying the list of books 
 <img src="https://github.com/MayssaJaz/Cloud-project/blob/main/book-boutique-testing/photos/test1.png" />
+### The Add book page to add a new book
+<img src="https://github.com/MayssaJaz/Cloud-project/blob/main/book-boutique-testing/photos/test3.png" />
 
 
 ## Our Services: 
