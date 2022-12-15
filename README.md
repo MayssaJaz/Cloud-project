@@ -7,14 +7,14 @@ We deployed the app using Microsoft Azure and we used multiple services.
 The services we used are:
 
 
-Our Architecture : 
+## Our Architecture : 
 image archi
 
-Our App : 
+## Our App : 
 taswirat aal app elli tekhdem 
 
 
-Our Services: 
+## Our Services: 
 
 We used a single ressource group entitled : RG_project
 We chose west europe as the region for our ressources
