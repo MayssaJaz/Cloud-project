@@ -8,10 +8,10 @@ The services we used are:
 
 
 ## Our Architecture : 
-image archi
+<img src="https://github.com/MayssaJaz/Cloud-project/blob/main/book-boutique-testing/photos/architecture.png" />
 
 ## Our App : 
-taswirat aal app elli tekhdem 
+<img src="https://github.com/MayssaJaz/Cloud-project/blob/main/book-boutique-testing/photos/test1.png" />
 
 
 ## Our Services: 
