@@ -20,6 +20,9 @@ The services we used are:
 
 
 ## Our Services: 
+- First VM where we deployed our Flask backend 
+- Second VM where we deployed our angular frontend
+- CosmosDB and we chose MongoDB as our Database
 
 We used a single ressource group entitled : RG_project
 We chose west europe as the region for our ressources
