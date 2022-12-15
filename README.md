@@ -1,5 +1,5 @@
 # Cloud Computing Project: Book Boutique
-# Made by Mayssa Jaziri, Aycha Abid and Mohamed Aziz Bouaouina
+# Made by Mayssa Jaziri & Aycha Abid
 
 
 This project is a book shop where you can see, add and delete your books.
