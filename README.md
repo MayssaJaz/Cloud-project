@@ -3,7 +3,7 @@
 
 
 This project is a book shop where you can see, add and delete your books.
-We deployed the app using Microsoft Azure and we used multiple services.
+We deployed the app using Microsoft Azure (the front-end, the back-end as well as the Database which is a MongoDB DB) and we used multiple services.
 The services we used are:
 
 
